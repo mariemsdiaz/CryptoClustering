@@ -51,3 +51,7 @@ The goal is to compare how using fewer features impacts the clustering of the co
 Using PCA for clustering, we can observe that some cryptocurrencies, which were previously close to other clusters, are now identified as outliers in the graph. For instance, Cluster 1 (coin_id = "celsius-degree-token") was grouped with other coins in the original scatter plot, but it is now more isolated. Similarly, the token EthLend in Cluster 3 is also identified as an outlier, although it has moved slightly closer to other points compared to the original data.
 
 This analysis demonstrates that we can effectively highlight the story of these outliers while working with a simpler dataset. In conclusion, PCA reduces the complexity of the data, which can enhance the efficiency of clustering. However, there may be a trade-off between simplification and the potential loss of detail from the original dataset. The elbow curves for both the original and PCA-transformed datasets serve as valuable tools in selecting the optimal number of clusters for analysis.
+
+### End Note 
+
+This analysis was completed and performed with the help of past class activities on machine learning, the use of ChatGPT for rapidly answer questions and generate code solutions. 
